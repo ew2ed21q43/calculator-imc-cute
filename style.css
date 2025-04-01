@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 body {
-    background-color: black;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center center;
     color: white;
     display: flex ;
     justify-content: center;
@@ -20,7 +24,7 @@ body {
 .container {
     min-width: 400px;
     min-height: 400px;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(65, 65, 65);
     padding: 2rem;
     border-radius: 16px;
 }
@@ -51,7 +55,9 @@ body {
 }
 
 .form-control input{
-    padding: 1rem 0.5rem
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    box-shadow: 30px;
 }
 
 .action-control{
@@ -64,9 +70,9 @@ body {
 button {
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    background-color: #F44236;
+    background-color: pink;
     border: none;
-    color: #fff;
+    color: black;
     cursor: pointer;
     opacity: 0.9;
     flex: 1;
@@ -79,6 +85,7 @@ button:hover {
 
 #clear-btn {
     background-color: #444;
+    color:white;
 }
 
 /*Table*/
@@ -160,4 +167,9 @@ button:hover {
 #canto-image {
     border-radius: 30px;
     height: 400px;
+}
+
+#result-image {
+    border-radius: 30px;
+    height: 300px;
 }
